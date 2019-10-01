@@ -24,7 +24,7 @@ docker-compose exec web python manage.py createsuperuser
 
 Create the directory used for media uploads in development:
 ```
-docker-compose exec mkdir -p media/covers
+docker-compose exec web mkdir -p media/covers
 ```
 
 The local development server should be running at this point. If it needs to be starteg again, you can use this command:
